@@ -1,0 +1,10 @@
+:root{
+--BRANCOPRINCIPAL-: #FFFFFF;
+--CINZASECUNDARIO:#C0C0C0;
+--BOTAOAZUL: #167BF7;
+--CORDEEFUNDO: #00030C;
+}
+body{
+    background-color: var(--CORDEEFUNDO);
+    color:var(--BRANCOPRINCIPAL-);
+}
