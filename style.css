@@ -8,3 +8,8 @@ body{
     background-color: var(--CORDEEFUNDO);
     color:var(--BRANCOPRINCIPAL-);
 }
+.principal{background-image: url(Background.png);
+}
+.conteiner{
+height: 100vh;
+}
