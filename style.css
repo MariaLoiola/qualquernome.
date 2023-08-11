@@ -9,10 +9,13 @@ body{
     background-color: var(--CORDEEFUNDO);
     color:var(--BRANCOPRINCIPAL-);
 }
-.principal{background-image: url(Background.png);
+.principal{
+    background-image: url(Background.png);
     font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 400;
+    align-items: center;
+    align-items: center;
 }
 .conteiner{
 height: 100vh;
@@ -26,6 +29,7 @@ border-radius: 5px;
 padding: 1em;
 color: var(--BRANCOPRINCIPAL-);
 display: block; 
+margin-bottom: 1em;
 }
 .botao_secundario{
     background-color: transparent;
@@ -39,4 +43,33 @@ display: block;
 .container_titulo{
     font-size: 28px;
     font-weight: 700;
+}
+.container_imagem{
+    margin: 1em 0 2em 0;
+}
+.container_caixa{
+    margin: 0 6em;
+}
+.secundario_imagem{
+    width: 80%;
+}
+.secundario{
+    align-items: center;
+    margin: 0 10em;
+}
+.descricao_titulo{
+    font-weight: 700;
+    font-size: 48px;
+color: var(--BRANCOPRINCIPAL-);
+}
+.descricao_texto{
+    margin-bottom: 0.1em;
+    color: var(--CINZASECUNDARIO);
+}
+.secundario_botao{
+    display: inline-block;
+    margin-top: 1em;
+}
+.container_descricao{
+    padding: 2em;
 }
